@@ -1,5 +1,5 @@
 # Suicide Prevention: A Therapy ChatBot
-### Developed By: Sundharess B, BadriNarayanan S, 
+### Developed By: Sundharess B, BadriNarayanan S, Suhas S
 
 ## Overview
 
