@@ -8,7 +8,11 @@ langchain_pinecone # Vector Database
 py-dotenv # For detecting environment
 pypdf # For RAG
 fastapi
+<<<<<<< HEAD
 google-cloud-speech
 pyaudio
+=======
+# google-cloud-speech pyaudio
+>>>>>>> 45c9f06ad04fe1343085cd5cd2272424118d4820
 
 

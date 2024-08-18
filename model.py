@@ -55,7 +55,11 @@ def load_llm():
 # Here just loading the pdf and transforming it to chunks, and performing vector embeddings as well as storing the vector embeddings in Pinecone vector database.
 def qa_bot():
     
+<<<<<<< HEAD
     data = PyPDFLoader('C:\\Users\\USER\\OneDrive\\Desktop\\Specialization-Project\\TherapyBot\\Psychology-of-Human-Relations-1695056913.pdf')
+=======
+    data = PyPDFLoader('R:\\SPD\\TherapyBot\\Psychology-of-Human-Relations-1695056913.pdf')
+>>>>>>> 45c9f06ad04fe1343085cd5cd2272424118d4820
     loader = data.load()
     chunk = RecursiveCharacterTextSplitter(chunk_size=5000, chunk_overlap=0)
     splitdocs = chunk.split_documents(loader)
